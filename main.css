@@ -1,0 +1,247 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* End of CSS Reset */
+
+#navbar {
+	text-align: right;
+	padding: 25px;
+}
+
+#navbar li {
+	display: inline;
+	font-size: 13px;
+}	
+
+.navleft {
+	float: left;
+}
+
+.navleft li {
+	color: #999;
+	padding-left: 20px;
+}
+
+.navright li {
+	padding-right: 12px;
+}
+
+span {
+	text-decoration: underline;
+}
+
+sup {
+	color: #999;
+	font-weight: normal;
+	font-size: 8px;
+	vertical-align: super;
+	text-decoration: none;
+}	
+
+li a {
+	text-decoration: none;
+	color: #336699;
+}
+
+li a:hover {
+	color: #6699cc;
+}
+
+#signin a {
+	color: #6699cc;
+}
+
+#signin a:hover {
+	color: #336699;
+}
+
+#container {
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	text-align: center;
+	vertical-align: center;
+	position: relative;
+	top: 30px;
+	outline: none;
+	outline: 0;
+	box-shadow: none;
+}
+
+h1 {
+	font-size: 58px;
+	font-weight: 550;
+}
+
+h5 {
+	font-size: 20px;
+	font-weight: 550;
+}
+
+.box1 {
+	display: inline-block;
+	border: 1px solid #e8e8e8;
+	width: 143px;
+	border-radius: 5px;
+	margin: 15px 20px 5px;
+	text-align: center;
+	padding: 20px;
+	/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(top, #FFFFFF 0%, #EDEDED 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top, #FFFFFF 0%, #EDEDED 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top, #FFFFFF 0%, #EDEDED 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #EDEDED));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #EDEDED 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom, #FFFFFF 0%, #EDEDED 100%);
+}
+
+.box1 img {
+	padding-top: 5px;
+}
+
+.box2 {
+	display: inline-block;
+	border: 1px solid #e8e8e8;
+	width: 143px;
+	border-radius: 5px;
+	margin: 15px 20px 5px;
+	text-align: center;
+	padding: 20px;
+/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(top, #FFFFFF 0%, #EDEDED 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top, #FFFFFF 0%, #EDEDED 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top, #FFFFFF 0%, #EDEDED 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #EDEDED));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #EDEDED 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom, #FFFFFF 0%, #EDEDED 100%);
+}
+
+.box2 img {
+	padding-top: 2px; 
+}
+
+.box3 {
+	display: inline-block;
+	border: 1px solid #e8e8e8;
+	width: 143px;
+	border-radius: 5px;
+	margin: 15px 20px 5px;
+	text-align: center;
+	padding: 20px;
+	/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(top, #FFFFFF 0%, #EDEDED 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top, #FFFFFF 0%, #EDEDED 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top, #FFFFFF 0%, #EDEDED 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #EDEDED));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #EDEDED 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom, #FFFFFF 0%, #EDEDED 100%);
+}
+
+.box3 img {
+	padding-top: 4px;
+}
+
+#container a {
+	text-decoration: none;
+}
+
+.boxtop {
+	color: #369;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.boxmid {
+	color: #cc0000;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.boxbottom {
+	color: #222;
+	font-size: 16px;
+}
+
+#asterisk {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    padding-top: 55px;
+}
