@@ -2,6 +2,8 @@
 <html>
 <head>
 	<link type="text/css" rel="stylesheet" href="main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="application.js"></script>
 	<title>	37signals: Web-based collaboration apps for small business
 	</title>
 </head>	
@@ -20,10 +22,28 @@
 	</nav>
 	<div id="container">
 		<img src="images/signal.png">
-		<h1>Making collaboration productive and <br> enjoyable for people every day.</h1>
+		<div id="core">
+			<h1>Making collaboration productive and <br> enjoyable for people every day.</h1>
 		<br>
-		<h5>Frustration-free web-based apps for collaboration, sharing information, and making decisions.</h5>
+			<h5>Frustration-free web-based apps for collaboration, sharing information, and making decisions.</h5>
+		</div>
+		<div id="base" class="hide">
+			<h1 class = "smallh1"><span>Basecamp</span> is the project management tool you <br>wish you had on your last project.</h1>
 		<br>
+			<h5 class = "smallh5">Are you still managing projects with email? Are you still using Excel for your to-do lists? It's time to upgrade to <br>Basecamp. Manage projects and collaborate with your team and clients the modern way.</h5>
+		</div>			
+		<div id ="high" class="hide">
+			<h1 class = "smallh1"><span>Highrise</span> remembers the important things <br>about people you'd normally forget.</h1>
+		<br>	
+			<h5 class = "smallh5">Keep permanent record of people you do business with. Know who you talked to, when you talked to them,<br> what was said, and when to follow up next. Over 20,000,000 contacts are tracked using Highrise.</h5>	
+		</div>
+		<div id ="camp" class="hide">
+			<h1 class = "smallh1">From near or far, <span>Campfire</span> helps teams work<br> together over the web in real-time.</h1>
+		<br>
+			<h5 class = "smallh5">Share ideas, discussions, concepts, images, code samples, videos, mockups, and documents in a real-time<br> private chat room. It's game changing. We couldn't run our own business without Campfire.</h5>
+		</div>
+		<br>
+		<img src="images/basearrow.png" class="hide" id="barrow">
 		<a class="box1" href="#">
 			<img src="images/basecamp.png" alt="Basecamp">
 			<p class="boxtop"><span>Basecamp</span><sup>&copy;</sup></p>
@@ -33,6 +53,7 @@
 			<p class="boxbottom">Used by millions for project management.
 			</p>
 		</a>
+		<img src="images/basearrow.png" class="hide" id="harrow">
 		<a class="box2" href="#">
 			<img src="images/highrise.png" alt="Highrise">
 			<p class="boxtop"><span>Highrise</span><sup>&copy;</sup></p>
@@ -41,6 +62,8 @@
 			<br>
 			<p class="boxbottom">Know the people you do business with.
 			</p>
+		</a>
+		<img src="images/camparrow.png"	class="hide" id="carrow">
 		<a class="box3" href="#">
 			<img src="images/campfire.png" als="Campfire">
 			<p class="boxtop"><span>Campfire</span><sup>&trade;</sup></p>

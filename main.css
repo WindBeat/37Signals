@@ -74,6 +74,7 @@ table {
 
 span {
 	text-decoration: underline;
+	color: #369;
 }
 
 sup {
@@ -115,6 +116,10 @@ li a:hover {
 	box-shadow: none;
 }
 
+.hide {
+	display: none
+}
+
 h1 {
 	font-size: 58px;
 	font-weight: 550;
@@ -123,6 +128,36 @@ h1 {
 h5 {
 	font-size: 20px;
 	font-weight: 550;
+}
+
+.smallh1 {
+	font-size: 46px;
+	font-weight: 500;
+}
+
+.smallh5 {
+	font-size: 17px;
+}
+
+#barrow {
+	position: absolute;
+	top: 190px;
+	right: 750px;
+	z-index: 1;
+}
+
+#harrow {
+	position: absolute;
+	top: 190px;
+	right: 510px;
+	z-index: 1;
+}
+
+#carrow {
+	z-index: 1;
+	position: absolute;
+	top: 190px;
+	right: 440px;
 }
 
 .box1 {
