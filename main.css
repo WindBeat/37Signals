@@ -73,7 +73,7 @@ table {
 }
 
 #wrapper {
-	padding-bottom: 40px;
+	padding-bottom: 15px;
 	height: 150px;
 }
 
@@ -146,7 +146,7 @@ h5 {
 
 .arrow {
 	position: absolute;
-	top: 218px;
+	top: 192px;
 	z-index: 1;
 }
 
