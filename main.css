@@ -144,24 +144,21 @@ h5 {
 	font-size: 17px;
 }
 
-#barrow {
+.arrow {
 	position: absolute;
-	top: 190px;
-	right: 750px;
+	top: 218px;
 	z-index: 1;
+}
+
+#barrow {
+	right: 750px;
 }
 
 #harrow {
-	position: absolute;
-	top: 190px;
 	right: 510px;
-	z-index: 1;
 }
 
 #carrow {
-	z-index: 1;
-	position: absolute;
-	top: 190px;
 	right: 440px;
 }
 
